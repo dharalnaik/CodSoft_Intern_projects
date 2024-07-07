@@ -1,7 +1,7 @@
 import random
 
-a = 0
-b = 0
+a = 0  #Stores user's scores
+b = 0  #Stores comp's scores
 
 while True:
     user_input = input("Enter a choice (rock, paper, scissors): ")
@@ -9,23 +9,23 @@ while True:
     comp_selection = random.choice(possible_actions)
     print(f"\nYou chose {user_input}, computer chose {comp_selection}.")
 
-    if user_input == comp_selection:
+    if user_input == comp_selection:                         #When tied
         print(f"Both players selected {user_input}. It's a tie!")
-    elif user_input == "rock":
+    elif user_input == "rock":                               #User chose rock
         if comp_selection == "scissors":
             print("Rock smashes scissors! You win!")
             a=a+1
         else:
             print("Paper covers rock! You lose.")
             b=b+1
-    elif user_input == "paper":
+    elif user_input == "paper":                              #User chose paper
         if comp_selection == "rock":
             print("Paper covers rock! You win!")
             a=a+1
         else:
             print("Scissors cuts paper! You lose.")
             b=b+1
-    elif user_input == "scissors":
+    elif user_input == "scissors":                           #User chose paper
         if comp_selection == "paper":
             print("Scissors cuts paper! You win!")
             a=a+1
@@ -33,7 +33,7 @@ while True:
             print("Rock smashes scissors! You lose.")
             b=b+1
 
-    play_again = input("\nPlay again? (y/n): ")
+    play_again = input("\nPlay again? (y/n): ")              #To play again
     if play_again.lower() != "y":
         print("The scores are: ")
         print("Your score: ", a)
