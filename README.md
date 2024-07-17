@@ -13,4 +13,4 @@ This project is made with the help of Python only for core programming.
 
 **Rock-Paper-Scissors:**
 This project is a simple rock-paper-scissors game played between computer and the user. It also calculates the scores of both the players and accordingly gives us a winner.
-This project is made with the help of Python only for core programming
+This project is made with the help of Python only for core programming.
