@@ -8,7 +8,7 @@ This project is a task management system built with authentication through usern
 This project is made with the help of Python for core programming and MySQL is used for database.
 
 **Calculator:**
-This project is a calculator made with menu driven factor to allow users to operate on numbers with arithmetic operations, trignometry operations and many more.
+This project is a calculator made with menu driven factor to allow users to operate on numbers with arithmetic operations, trigonometry operations and many more.
 This project is made with the help of Python only for core programming.
 
 **Rock-Paper-Scissors:**
